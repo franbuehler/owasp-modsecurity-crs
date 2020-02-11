@@ -62,9 +62,7 @@ jobs:
 # safelist
 branches:
   only:
-    - v3.1/dev
-    - v3.2/dev
-    - v3.3/dev
+    - fix-travis
 
 notifications:
   irc: "chat.freenode.net#modsecurity"
